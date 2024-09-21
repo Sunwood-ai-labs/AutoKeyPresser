@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="docs/icon.png" width="30%">
 <br>
@@ -20,9 +21,11 @@
 
 </p>
 
-## 特徴
+## 🌟 Features
 
-![alt text](./docs/image.png)
+<p align="center">
+<img src="./docs/image.png" width="50%">
+</p>
 
 - **キー連打機能**: 指定したキーを指定した間隔で自動的に連打します。
 - **マウスクリック機能**: 指定した座標を指定した間隔で自動的にクリックします。
@@ -33,12 +36,12 @@
   - **F9**: 連打開始
   - **F10**: 連打停止
 
-## 必要な環境
+## 💻 System Requirements
 
 - Windows OS
 - Python 3.x
 
-## インストール
+## 🚀 Installation
 
 ### 1. リポジトリのクローン
 
@@ -86,7 +89,7 @@ keyboard
 Pillow
 ```
 
-## 使い方
+## 📖 How to Use
 
 ### 1. アプリケーションの起動
 
@@ -118,7 +121,7 @@ python auto_clicker.py
 
 - アプリケーションウィンドウ内のステータスラベルで、現在の状態（実行中または停止中）を確認できます。
 
-## 注意事項
+## ⚠️ Precautions
 
 - **管理者権限の必要性**: アプリケーションはキーボードとマウスの操作を制御するため、管理者権限での実行が必要な場合があります。コマンドプロンプトやPowerShellを管理者として実行してください。
   
@@ -128,7 +131,7 @@ python auto_clicker.py
 
 - **自己責任**: 本アプリケーションの使用により生じたいかなる損害や問題に対しても、開発者は一切の責任を負いません。自己責任でご使用ください。
 
-## カスタマイズ
+## 🎨 Customization
 
 ### カラーテーマの変更
 
@@ -148,45 +151,10 @@ apply_stylesheet(app, theme='dark_teal.xml')
 self.icon_label.setPixmap(QIcon("icon.png").pixmap(20, 20))
 ```
 
-## ライセンス
+## 📄 License
 
 このプロジェクトはMITライセンスの下で提供されています。
 
-## 貢献
+## 🤝 Contributing
 
 バグ報告や機能改善の提案は、IssueやPull Requestを通じてお知らせください。
-
-## 作者
-
-- **お名前**: Your Name
-- **メール**: your.email@example.com
-
-## 謝辞
-
-- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/)
-- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
-- [qt_material](https://github.com/UN-GCPDS/qt-material)
-- [keyboard](https://github.com/boppreh/keyboard)
-
-## トラブルシューティング
-
-### Q1: キー入力やマウスクリックが機能しません。
-
-- **A**: 管理者権限でアプリケーションを実行してください。また、アンチウイルスソフトがブロックしていないか確認してください。
-
-### Q2: ホットキーが反応しません。
-
-- **A**: 他のアプリケーションで同じホットキーが使用されている可能性があります。可能であれば、そのアプリケーションを終了するか、ホットキーを変更してください。
-
-### Q3: エラーメッセージが表示されてアプリケーションが起動しません。
-
-- **A**: 必要なライブラリが正しくインストールされているか確認してください。仮想環境がアクティブになっているかもご確認ください。
-
-## 更新情報
-
-- **バージョン 1.0** (2023-10-01)
-  - 初回リリース
-
----
-
-ご不明な点や問題がありましたら、お気軽にお問い合わせください。
